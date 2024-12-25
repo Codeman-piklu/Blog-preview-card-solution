@@ -1,0 +1,99 @@
+:root{
+--Yellow: hsl(47, 88%, 63%);
+
+--White: hsl(0, 0%, 100%);
+
+--Gray500: hsl(0, 0%, 42%);
+--Gray950: hsl(0, 0%, 7%);
+}
+*,
+*::after,
+*::before{
+    list-style: none;
+    text-decoration: none;
+    /* margin:0 ;
+    padding:0; */
+    box-sizing: border-box;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+img[title='illustration-article']{
+    margin-bottom: 20px;
+    width: 100%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", serif;
+    background-color: var(--Yellow);
+    
+}
+p, a{
+    font-size: 16px;
+    color:var(--Gray500);
+    font-weight: 500;
+}
+.container{
+    width: 360px;
+    height: auto;
+    background-color: var(--White);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 8px 6px 1px black;
+}
+.container:hover{
+    box-shadow: 15px 10px 8px rgb(228, 155, 110);
+}
+a[title~='Learning']{
+    margin-bottom: 20px;
+    background-color: var(--Yellow);
+    padding:5px 10px;
+    border-radius:5px;
+    font-weight: 800;
+    color:var(--Gray950);
+}
+a[title~='Learning']:hover{
+background-color: rgba(212, 209, 23, 0.445);
+box-shadow: 2px 1px 1px rgb(173, 152, 152);
+}
+h5{
+    font-family: "Figtree", serif;
+    font-weight: 500;
+    color: var(--Gray950);
+}
+h2{
+    font-weight: 800;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer img{
+    width: 40px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.footer img:hover{
+    width: 80px;
+}
+.footer a{
+    color: var(--Gray950);
+    font-weight: 900;
+}
+.attribution{
+    margin: 10px;
+}
+.attribution a{
+    color:green;
+}
+
