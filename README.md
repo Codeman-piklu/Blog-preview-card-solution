@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://exquisite-kelpie-27d4d0.netlify.app/))
+- Live Site URL: [Add live site URL here][(https://your-live-site-url.com](https://exquisite-kelpie-27d4d0.netlify.app/))
 
 ## My process
 
@@ -86,8 +86,8 @@ In future projects, I plan to:
 
 ## Author
 
-- github - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- github - [Add your name here][(https://www.your-site.com](https://github.com/Codeman-piklu/Blog-preview-card-solution/edit/main/README.md))
+- Frontend Mentor - [@Codeman-Piklu][(https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Codeman-piklu))
 
 
 ## Acknowledgments
